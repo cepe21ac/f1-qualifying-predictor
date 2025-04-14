@@ -10,7 +10,7 @@ n <- 300
 
 drivers <- c("Piastri", "Norris", "Hamilton", "Leclerc", "Russell", "Antonelli", "Verstappen", "Tsunoda",
              "Alonso", "Stroll", "Gasly", "Doohan", "Albon", "Sainz", "Ocon", "Bearman", "Hulkenberg", 
-             "Bortoleto", "Lawson", "Hadjar)
+             "Bortoleto", "Lawson", "Hadjar")
 sessions <- c("Q1", "Q2", "Q3")
 circuits <- c("Australia", "China", "Monaco", "Bahrain", "Jeddah", "Miami", "Imola", "Spain", "Silverstone", 
               "Monza", "Canada", "Austria", "Japan", "Singapore", "Spa", "Hungary", "Netherlands", "Baku", 
