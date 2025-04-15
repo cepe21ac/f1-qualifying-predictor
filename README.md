@@ -23,9 +23,9 @@ This project uses an R script to simulate and predict second stint lap times in 
 ### Example Prediction
 
 The script includes an example with:
-- Hamilton (Q1, Dry, Monaco, New Tyres)
-- Albon (Q1, Wet, Silverstone, Used Tyres)
-- Alonso (Q3, Dry, Spa, Used Tyres)
+- Hamilton (Q1, Dry, Monaco, New Tyres, Soft Tyres)
+- Albon (Q1, Wet, Silverstone, Used Tyres, Inter Tyres)
+- Alonso (Q3, Dry, Spa, Used Tyres, Medium Tyres)
 
 ### Author
 
