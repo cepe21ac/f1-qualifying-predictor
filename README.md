@@ -7,6 +7,7 @@ This project uses an R script to simulate and predict second stint lap times in 
 - Weather (Dry/Wet)
 - Tyre condition (New/Used)
 - First stint time
+- Tyre compound (Soft, Medium, Hard, Inter, Wet)
 
 ### How it works
 - The model simulates 300 laps using realistic parameters
