@@ -48,9 +48,6 @@ qual_data <- qual_data %>%
       condition == "Wet" & tyre_compound == "Inter" ~ 0.25,
       condition == "Wet" & tyre_compound == "Wet" ~ 0.15,
       
-      # Special case for Monaco
-      circuit == "Monaco" ~ 0.6,
-      
       # Fallback
       TRUE ~ 0.2
     ),
