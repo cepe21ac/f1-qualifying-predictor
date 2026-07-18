@@ -53,7 +53,6 @@ qual_data <- qual_data %>%
     ),
     sd_value = case_when(
       condition == "Wet" ~ 0.3,
-      circuit == "Monaco" ~ 0.2,
       session == "Q1" & condition == "Dry" ~ 0.15,
       TRUE ~ 0.1
     ),
@@ -81,7 +80,7 @@ summary(model)
 
 # Ensure factor levels match those in training data
 new_data <- data.frame(
-  driver = factor(c("Tsunoda", "Norris", "Russell", "Hulkenberg"), levels = levels(qual_data$driver)),
+  driver = factor(c("Piastri", "Norris", "Russell", "Hulkenberg"), levels = levels(qual_data$driver)),
   session = factor(c("Q3", "Q3", "Q3", "Q3"), levels = levels(qual_data$session)),
   circuit = factor(c("Bahrain", "Bahrain", "Bahrain", "Bahrain"), levels = levels(qual_data$circuit)),
   condition = factor(c("Dry", "Dry", "Dry", "Dry"), levels = levels(qual_data$condition)),
