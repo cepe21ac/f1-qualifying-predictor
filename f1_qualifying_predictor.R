@@ -9,9 +9,9 @@ library(ggplot2)
 set.seed(123)
 n <- 300
 
-drivers <- c("Piastri", "Norris", "Hamilton", "Leclerc", "Russell", "Antonelli", "Verstappen", "Tsunoda", "Alonso", "Stroll", "Gasly", "Doohan", "Albon", "Sainz", "Ocon", "Bearman", "Hulkenberg", "Bortoleto", "Tsunoda", "Lawson", "Hadjar")
+drivers <- c("Piastri", "Norris", "Hamilton", "Leclerc", "Russell", "Antonelli", "Verstappen", "Lindblad", "Alonso", "Stroll", "Gasly", "Colapinto", "Albon", "Sainz", "Ocon", "Bearman", "Hulkenberg", "Bortoleto", "Bottas", "Lawson", "Hadjar", "Perez")
 sessions <- c("Q1", "Q2", "Q3")
-circuits <- c("Australia", "China", "Monaco", "Bahrain", "Jeddah", "Miami", "Imola", "Spain", "Silverstone", "Monza", "Spain", "Canada", "Austria", "Japan", "Singapore", "Spa", "Hungary", "Netherlands", "Baku", "Austin", "Mexico", "Brazil", "Las Vegas", "Qatar", "Abu Dhabi")
+circuits <- c("Australia", "China", "Monaco", "Bahrain", "Jeddah", "Miami", "Imola", "Barcelona", "Silverstone", "Monza", "Madrid", "Canada", "Austria", "Japan", "Singapore", "Spa", "Hungary", "Netherlands", "Baku", "Austin", "Mexico", "Brazil", "Las Vegas", "Qatar", "Abu Dhabi", "Turkey")
 conditions <- c("Dry", "Wet")
 tyres <- c("New", "Used")
 tyre_compounds <- c("Hard", "Medium", "Soft", "Inter", "Wet")
